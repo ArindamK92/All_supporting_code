@@ -66,7 +66,8 @@ int main(int argc, char* argv[]) {
 	//commenting below part as this code is for initial coloring
 	//read_Input_Color(vertexcolor, inputColorfile, &maxColor);
 	//SCmaskArrayElement = maxColor / 32 + 2; //we take 1 element extra to manage the situation if number of color increases
-	SCmaskArrayElement = 5;
+	
+	SCmaskArrayElement = 3; //reduce or increase it if required -> also change maskArray size accordingly in GPU functions
 	//printf("Max color id in input graph: %d\n", maxColor);
 
 
