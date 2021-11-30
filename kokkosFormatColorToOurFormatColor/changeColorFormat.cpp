@@ -21,6 +21,7 @@ void read_writeColor(char* myfile)
 	{
 		int c;
 		sscanf(line, "%d", &c);
+		if(c != null)
 		cout << i << " " << c << endl;
 		i++;
 	}
