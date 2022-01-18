@@ -81,7 +81,7 @@ int main(int argc, char* argv[])
 	int iI = 0;//number of inserts
 	int iD = 0;//number of deletes
 	int k;
-
+	srand(time(NULL));
 	while (1)
 	{
 		//srand(time(NULL));
