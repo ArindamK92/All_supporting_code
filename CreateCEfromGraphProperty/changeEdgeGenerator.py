@@ -57,7 +57,7 @@ if __name__ == "__main__":
     parser.add_argument("-i", "--input", type=str, required=True, help="Path of input file")
     parser.add_argument("-n", "--noOfCE", type=int, default=default_noOfCE, help="No. of Change Edges")
     parser.add_argument("-p", "--prop", type=int, default=default_prop, help="0:lowPr_lowOutDeg, 1:lowPr_lowInDeg, 2:lowPr_lowEstBetwns, 3:lowPr_lowClsns, 4:lowPr_lowKatz")
-    parser.add_argument("-prp", "--prpercentage", type=int, default=default_lowPrPercentage, help="% of low PageRank values to consider")
+    parser.add_argument("-l", "--prpercentage", type=int, default=default_lowPrPercentage, help="percentage of low PageRank values to consider")
     
     args = parser.parse_args()
     validateArgs(args) #validate args
